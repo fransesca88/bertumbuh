@@ -1,9 +1,11 @@
+<template>
+  <DefaultLayout>
+    <p>ini home page</p>
+  </DefaultLayout>
+</template>
+
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import DefaultLayout from '@/components/layouts/DefaultLayout.vue'
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped></style>
