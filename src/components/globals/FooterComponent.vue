@@ -1,5 +1,8 @@
 <template>
-  <footer id="footer" class="bg-bertumbuh-green text-white pt-14 pb-8 px-14">
+  <footer
+    id="footer"
+    class="bg-bertumbuh-green text-white pt-9 pb-7 xl:pt-14 xl:pb-8 px-10 xl:px-14"
+  >
     <div class="container mx-auto">
       <div class="content flex flex-col gap-6 xl:flex-row justify-between">
         <div class="left-column basis-1/2">
