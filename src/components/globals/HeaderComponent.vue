@@ -3,7 +3,7 @@
     <div class="above pb-0 xl:px-14 xl:pb-9">
       <div class="container mx-auto">
         <div
-          class="wrapper flex flex-row justify-center xl:justify-between items-center gap-8 xl:gap-0"
+          class="wrapper flex flex-row justify-center xl:justify-between items-center gap-12 xl:gap-0"
         >
           <div class="mobile-nav flex items-center xl:hidden">
             <button type="button" @click="toggleMobileNav" class="cursor-pointer">
@@ -11,7 +11,7 @@
               <X v-else />
             </button>
           </div>
-          <a class="logo flex flex-row-reverse xl:flex-row gap-8 xl:gap-3 items-center" href="/">
+          <a class="logo flex flex-row-reverse xl:flex-row gap-12 xl:gap-3 items-center" href="/">
             <LogoColored />
             <span class="text-2xl font-semibold">BERTUMBUH</span>
           </a>
